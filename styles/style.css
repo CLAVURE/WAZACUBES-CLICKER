@@ -109,18 +109,22 @@ h1{
     border-radius: 50px;
     background-color: white;
     color: black;
-    margin: 25px 5% auto 5%;
+    right: 0;
+    left: 0;
+    margin: 25px auto;
     padding: 3px;
     align-items: center;
+    min-width:50vw;
     min-height: 60%;
+    max-height: 90%;
     z-index: 2;
     opacity: 0;
     transition: 1.5s;
 }
 
 .Cookie>img{
-    height:40vw;
-    width: 40vw;
+    height:30vw;
+    width: 30vw;
 }
 
 .Cookie>p{
