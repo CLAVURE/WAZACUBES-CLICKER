@@ -71,6 +71,7 @@ function WaZa(){
         emoji.innerHTML = "<img src='img/priere.png' alt='Prière' width='100px' height='100px' class='NonSelectable'>";
         emoji.style.marginTop = top;
         emoji.style.marginLeft = left;
+        emoji.style.display = 'block';
         emoji.style.position = 'fixed';
         emoji.style.animation = "priere 2s infinite";
         emoji.style.pointerEvents = "none";
